@@ -54,11 +54,10 @@
 - `data/`: Stores data files (ignored in version control).
 - `models/`: Stores model files (ignored in version control).
 - `myenv/`: Environment folder, typically for virtual environments (ignored in version control).
+- `src/`: contains all python code associated with generating and testing the label-free concept bottleneck model
 
 ## Notes
 - Ensure that all required packages are installed and the API key is set up properly before running the scripts.
 - You may need to adjust paths in the scripts if you modify the folder structure.
 
 ---
-
-Happy coding!
