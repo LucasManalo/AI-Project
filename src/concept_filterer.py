@@ -43,10 +43,6 @@ def filter_concepts(concepts_dict, model, target_class_names):
                 unique_concepts.append(concept)
                 unique_embeddings.append(concept_embeddings[i])
 
-        # Placeholder for Step 4: Filtering based on training data activations (if applicable)
-        # This would involve checking each unique concept’s activation level in training data
-        # Example: if average activation < threshold, discard concept (implementation will vary based on your training data).
-
         # Save the final filtered concepts for this class
         filtered_concepts[class_name] = unique_concepts
 
