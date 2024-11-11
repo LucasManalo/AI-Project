@@ -84,7 +84,7 @@ if __name__ == "__main__":
     cbm_model.load_state_dict(torch.load(model_path, map_location=device))
 
     # Evaluate the CBM model
-    # evaluate_model(cbm_model, testloader, device)
+    evaluate_model(cbm_model, testloader, device)
 
     input_image = images[0].to(device)
     filtered_concepts = load_concepts()
