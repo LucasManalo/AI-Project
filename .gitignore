@@ -1,0 +1,6 @@
+data/
+models/
+myenv/
+src/__pycache__/
+*.json
+*.png
